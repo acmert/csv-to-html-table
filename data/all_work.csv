@@ -1,4 +1,4 @@
-Authors,Year,Conference/Journal,Link,Target Application,Design Method,Target Platform,Platform Family,Implementation Security,"Optimization target (area, throughput, memory etc.)",Opt. Abstraction Level,Summary
+Authors,Year,Conference/Journal,Link,Target Application,Design Method,Target Platform,Platform Family,Implementation Security,Optimization Target,Opt. Abstraction Level,Summary
 Aysu et al.,2013,HOST,https://ieeexplore.ieee.org/document/6581570,?,Hardware,FPGA,Spartan-6,No,Area-Delay & Memory,Circuit-level,"Three optimizations: (1) on-the-fly twiddle generation to reduce storage, (2) memory coalescing/reorganization for bandwidth improvement, simplified address generation to save area"
 Poppelmann et al.,2012,LATINCRYPT,https://link.springer.com/chapter/10.1007/978-3-642-33481-8_8,?,Hardware,FPGA,,No,,Circuit-level,
 Györfi et al.,2013,DSD,https://ieeexplore.ieee.org/abstract/document/6628294,?,Hardware,FPGA,Kintex-7,No,,,
@@ -7,4 +7,4 @@ Guneysu et al.,2013,PQCrypto,https://link.springer.com/chapter/10.1007/978-3-642
 Roy et al.,2014,CHES,https://link.springer.com/chapter/10.1007/978-3-662-44709-3_21,?,Hardware,FPGA,Spartan-6,No,,,
 Oder et al.,2014,DAC,https://ieeexplore.ieee.org/abstract/document/6881437,?,Software,Microcontroller,,No,,,
 Meija et al.,2014,SPL,https://ieeexplore.ieee.org/abstract/document/7002209,?,Hardware,FPGA,,No,,,
-Boorghany et al.,2014,IACR ePrint,https://eprint.iacr.org/2014/078,?,Software,Microcontroller/Smart Cards,,No,,,
+Boorghany et al.,2014,IACR ePrint,https://eprint.iacr.org/2014/078,?,Software,Microcontroller,,No,,,
