@@ -76,6 +76,13 @@
         else
           return "";
       }
+      
+      function format_author(author){
+        if (author)
+          return author + "<br /><em>et al.<\em>";
+        else
+          return "";
+      }
 
       CsvToHtmlTable.init({
         csv_path: 'data/all_work.csv',
@@ -83,7 +90,7 @@
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false},
-        custom_formatting: [[3, format_link]]
+        custom_formatting: [[1, format_author],[3, format_link]]
       });
     </script>
   </body>
