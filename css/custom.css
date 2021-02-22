@@ -57,7 +57,7 @@ DePaul IHS
 
     
 body { 
-  font: 18px/1.3em 'ColaborateThinRegular', sans-serif;
+  font: 18px/1.3em 'ColaborateThinRegular', sans-serif; margin:2; padding:2
 }
 
 h1 {
