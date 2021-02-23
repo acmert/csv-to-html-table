@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>NTT-SoK</title>
+    <meta name="author" content="Derek Eder">
+    <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!--<div class="row">-->
+         <div class="col-lg-offset-2 col-lg-8">
+           
+          <h2 style="font-family:'Courier New', monospace;"><b>NTT-SoK | About</b></h2>
+      
+          <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+          <p style="font-family:'Courier New', monospace;"><a href="index.html">All works</a> &nbsp;&nbsp; <a href="hardware.html">Hardware Designs</a> &nbsp;&nbsp; <a href="software.html">Software Designs</a> &nbsp;&nbsp; <b><a href="about.html">About</a></b></p>
+
+          <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+          <p>Information about work.</p>
+          
+          <p>List of contributers.</p>
+          
+          <p>Contact information for update/requests.</p>
+
+          <!--<div id='table-container'></div>-->
+           
+         </div>
+     <!--</div>-->
+
+    </div><!-- /.container -->
+
+    <footer class='footer'>
+      <div class='container-fluid'>
+        <div class="col-lg-offset-2 col-lg-8">
+          <!--<hr />-->
+          
+          <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+          
+          <p>
+          <span style="float: right">Theme <a href='https://github.com/derekeder/csv-to-html-table'>CSV to HTML Table</a> by <a href='http://derekeder.com'>Derek Eder</a></span>
+          <!--<span style="float: left">Last update: 2021/02/23</span>-->
+          </p>
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+
+
+    <script type="text/javascript">
+      function format_link(link){
+        if (link)
+          return "<a href='" + link + "' target='_blank'>" + "Link" + "</a>";
+        else
+          return "";
+      }
+      
+      function format_author(author){
+        if (author)
+          return author + "<br /><em>et al.<\em>";
+        else
+          return "";
+      }
+
+      CsvToHtmlTable.init({
+        csv_path: 'data/all_work.csv',
+        element: 'table-container', 
+        allow_download: false,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false},
+        custom_formatting: [[0, format_author],[3, format_link]]
+      });
+    </script>
+    -->
+  </body>
+</html>
