@@ -1,0 +1,7 @@
+Authors,Year,Conference/Journal,Link,Target Application,Design Method,Target Platform,Platform Family,Implementation Security,Optimization Target,Opt. Abstraction Level,Summary
+Aysu,2013,HOST,https://ieeexplore.ieee.org/document/6581570,?,Hardware,FPGA,Spartan-6,No,Area-Delay & Memory,Circuit-level,"Three optimizations: (1) on-the-fly twiddle generation to reduce storage, (2) memory coalescing/reorganization for bandwidth improvement, simplified address generation to save area"
+Poppelmann,2012,LATINCRYPT,https://link.springer.com/chapter/10.1007/978-3-642-33481-8_8,?,Hardware,FPGA,,No,,Circuit-level,
+Györfi,2013,DSD,https://ieeexplore.ieee.org/abstract/document/6628294,?,Hardware,FPGA,Kintex-7,No,,,
+Poppelmann,2013,SAC,https://link.springer.com/chapter/10.1007/978-3-662-43414-7_4,?,Hardware,FPGA,,No,,,
+Roy,2014,CHES,https://link.springer.com/chapter/10.1007/978-3-662-44709-3_21,?,Hardware,FPGA,Spartan-6,No,,,
+Meija,2014,SPL,https://ieeexplore.ieee.org/abstract/document/7002209,?,Hardware,FPGA,,No,,,

@@ -1,0 +1,4 @@
+Authors,Year,Conference/Journal,Link,Target Application,Design Method,Target Platform,Platform Family,Implementation Security,Optimization Target,Opt. Abstraction Level,Summary
+Guneysu,2013,PQCrypto,https://link.springer.com/chapter/10.1007/978-3-642-38616-9_5,?,Software,CPU,,Yes,,,
+Oder,2014,DAC,https://ieeexplore.ieee.org/abstract/document/6881437,?,Software,Microcontroller,,No,,,
+Boorghany,2014,IACR ePrint,https://eprint.iacr.org/2014/078,?,Software,Microcontroller,,No,,,
