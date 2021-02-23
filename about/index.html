@@ -10,8 +10,8 @@
     <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,7 +29,7 @@
       
           <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-          <p style="font-family:'Courier New', monospace;"><a href=/>All works</a> &nbsp;&nbsp; <a href="/hardware/">Hardware Designs</a> &nbsp;&nbsp; <a href="/software/">Software Designs</a> &nbsp;&nbsp; <b><a href="/about/">About</a></b></p>
+          <p style="font-family:'Courier New', monospace;"><a href=/ntt-survey/>All works</a> &nbsp;&nbsp; <a href="/ntt-survey/hardware/">Hardware Designs</a> &nbsp;&nbsp; <a href="/ntt-survey/software/">Software Designs</a> &nbsp;&nbsp; <b><a href="/ntt-survey/about/">About</a></b></p>
 
           <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
@@ -65,6 +65,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!--
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.csv.min.js"></script>
@@ -89,7 +90,7 @@
       }
 
       CsvToHtmlTable.init({
-        csv_path: 'data/all_work.csv',
+        csv_path: '../data/all_work.csv',
         element: 'table-container', 
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
@@ -97,5 +98,6 @@
         custom_formatting: [[0, format_author],[3, format_link]]
       });
     </script>
+    -->
   </body>
 </html>
