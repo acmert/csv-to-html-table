@@ -10,8 +10,8 @@
     <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -61,12 +61,12 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
-    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
-    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+    <script type="../text/javascript" src="../js/jquery.min.js"></script>
+    <script type="../text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="../text/javascript" src="../js/jquery.csv.min.js"></script>
+    <script type="../text/javascript" src="../js/jquery.dataTables.min.js"></script>
+    <script type="../text/javascript" src="../js/dataTables.bootstrap.js"></script>
+    <script type="../text/javascript" src="../js/csv_to_html_table.js"></script>
 
 
     <script type="text/javascript">
@@ -85,7 +85,7 @@
       }
 
       CsvToHtmlTable.init({
-        csv_path: 'data/hw_work.csv',
+        csv_path: '../data/hw_work.csv',
         element: 'table-container', 
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
